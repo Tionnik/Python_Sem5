@@ -7,8 +7,6 @@ m=int(input("Введите число B: "))
 def summa(a,b):
     if b==0:
         return a
-    if b==1:
-        return  (a+1)
     if b>0:
         n=1+summa(a,b-1)
         return n
